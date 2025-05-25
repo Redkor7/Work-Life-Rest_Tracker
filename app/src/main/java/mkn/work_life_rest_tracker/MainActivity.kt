@@ -11,6 +11,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import mkn.work_life_rest_tracker.ui.screens.MainScreen
+import mkn.work_life_rest_tracker.ui.screens.TrackerScreen
+import mkn.work_life_rest_tracker.ui.screens.AdvisorScreen
 import mkn.work_life_rest_tracker.ui.theme.WorkLifeRestTheme
 
 class MainActivity : ComponentActivity() {
@@ -29,8 +31,10 @@ class MainActivity : ComponentActivity() {
                             MainScreen(navController)
                         }
                         composable("tracker") {
+                            TrackerScreen(navController)
                         }
                         composable("advisor") {
+                            AdvisorScreen(navController)
                         }
                     }
                 }
