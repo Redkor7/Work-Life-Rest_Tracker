@@ -10,7 +10,8 @@ val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
-// Цвета для категорий
-val WorkColor = Color(0xFFFF0000) // Красный
-val LifeColor = Color(0xFFFFFF00) // Желтый
-val RestColor = Color(0xFF00FF00) // Зеленый
+val WorkColor = Color(0xFFFF0000)
+val LifeColor = Color(0xFFFFFF00)
+val RestColor = Color(0xFF00FF00)
+
+val BackRecommendation = Color(0xFFFAFAD2)
