@@ -19,9 +19,9 @@ object TrackerKeys {
 class TrackerData(private val context: Context) {
     val stats: Flow<Triple<Int, Int, Int>> = context.dataStore.data.map { prefs ->
         Triple(
-            prefs[TrackerKeys.WORK] ?: 1,
-            prefs[TrackerKeys.LIFE] ?: 1,
-            prefs[TrackerKeys.REST] ?: 1
+            prefs[TrackerKeys.WORK] ?: 0,
+            prefs[TrackerKeys.LIFE] ?: 0,
+            prefs[TrackerKeys.REST] ?: 0
         )
     }
 

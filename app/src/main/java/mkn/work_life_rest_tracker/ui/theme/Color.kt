@@ -10,8 +10,8 @@ val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
 
-val WorkColor = Color(0xFFFF0000)
-val LifeColor = Color(0xFFFFFF00)
-val RestColor = Color(0xFF00FF00)
+val WorkColor = Color(0xFFFF4500)
+val LifeColor = Color(0xFFFFD700)
+val RestColor = Color(0xFF9ACD32)
 
 val BackRecommendation = Color(0xFFFAFAD2)
