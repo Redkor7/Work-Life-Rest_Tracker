@@ -149,9 +149,6 @@ fun ExpandableAdviceButton(
         Button(
             onClick = onClick,
             modifier = Modifier.fillMaxWidth().height(55.dp),
-            colors = ButtonDefaults.buttonColors(
-                    containerColor = Color(0xFFF0E68C),
-            contentColor = Color.Black)
         ) {
             Row(
                 modifier = Modifier.fillMaxWidth(),

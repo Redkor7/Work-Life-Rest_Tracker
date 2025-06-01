@@ -33,8 +33,4 @@ class TrackerData(private val context: Context) {
             prefs[TrackerKeys.TOTAL] = (prefs[TrackerKeys.TOTAL] ?: 0) + (work + life + rest)
         }
     }
-
-    val total: Flow<Int> = context.dataStore.data.map { prefs ->
-        prefs[TrackerKeys.TOTAL] ?: 0
-    }
 }

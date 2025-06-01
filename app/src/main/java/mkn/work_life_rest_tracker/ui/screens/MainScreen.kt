@@ -35,7 +35,7 @@ fun MainScreen(navController: NavController) {
                 .width(300.dp)
                 .height(60.dp)
         ) {
-            Text(text = "Трекер")
+            Text(text = "Трекер", style = MaterialTheme.typography.bodyLarge)
         }
 
         Spacer(modifier = Modifier.height(16.dp))
@@ -46,7 +46,7 @@ fun MainScreen(navController: NavController) {
                 .width(300.dp)
                 .height(60.dp)
         ) {
-            Text(text = "Советчик")
+            Text(text = "Советчик", style = MaterialTheme.typography.bodyLarge)
         }
     }
 }

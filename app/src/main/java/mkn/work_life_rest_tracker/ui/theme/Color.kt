@@ -15,3 +15,4 @@ val LifeColor = Color(0xFFFFD700)
 val RestColor = Color(0xFF9ACD32)
 
 val BackRecommendation = Color(0xFFFAFAD2)
+val ButtonColor = Color(0xFFF0E68C)
