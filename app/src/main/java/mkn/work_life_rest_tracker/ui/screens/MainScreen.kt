@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Button
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavController
@@ -21,7 +22,10 @@ fun MainScreen(navController: NavController) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Text(text = "Work-Life-Rest")
+        Text(
+            text = "Work-Life-Rest",
+            style = MaterialTheme.typography.titleLarge
+        )
 
         Spacer(modifier = Modifier.height(50.dp))
 
@@ -31,7 +35,7 @@ fun MainScreen(navController: NavController) {
                 .width(300.dp)
                 .height(60.dp)
         ) {
-            Text(text = "Трекер")
+            Text(text = "Трекер", style = MaterialTheme.typography.bodyLarge)
         }
 
         Spacer(modifier = Modifier.height(16.dp))
@@ -42,7 +46,7 @@ fun MainScreen(navController: NavController) {
                 .width(300.dp)
                 .height(60.dp)
         ) {
-            Text(text = "Советчик")
+            Text(text = "Советчик", style = MaterialTheme.typography.bodyLarge)
         }
     }
 }
