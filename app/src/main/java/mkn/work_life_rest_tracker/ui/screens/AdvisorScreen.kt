@@ -187,7 +187,7 @@ fun ExpandableAdviceButton(
     }
 }
 
-private fun generateRecommendation(stats: Triple<Int, Int, Int>): String {
+ fun generateRecommendation(stats: Triple<Int, Int, Int>): String {
     val (work, life, rest) = stats
     val total = work + life + rest
 
@@ -206,7 +206,7 @@ private fun generateRecommendation(stats: Triple<Int, Int, Int>): String {
     return buildRecommendationText(workP, lifeP, restP, ideal)
 }
 
-private fun buildRecommendationText(
+ fun buildRecommendationText(
     workP: Int,
     lifeP: Int,
     restP: Int,

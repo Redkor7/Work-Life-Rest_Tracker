@@ -62,11 +62,14 @@ class TimerViewModel(application: Application) : AndroidViewModel(application) {
         timerService?.resetTimer()
     }
 
-    override fun onCleared() {
+    public override fun onCleared() {
         super.onCleared()
         if (bound) {
             getApplication<Application>().unbindService(connection)
             bound = false
         }
     }
+
+    // Метод для тестирования
+    internal fun getConnection(): ServiceConnection = connection
 }
